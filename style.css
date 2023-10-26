@@ -1,0 +1,326 @@
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/plus-jakarta-sans-v8-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/plus-jakarta-sans-v8-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/plus-jakarta-sans-v8-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 1845px;
+  background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  position: relative;
+}
+.skill {
+  display: flex;
+  gap: 831px;
+  justify-content: center;
+  align-items: center;
+}
+.skill img {
+  width: 111px;
+  height: 28px;
+  margin-top: 38px;
+}
+.skill button {
+  width: 167px;
+  height: 56px;
+  background: #13183f;
+  border-radius: 28px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #fff;
+  margin-top: 24px;
+}
+.budget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 165px;
+  margin-top: 185px;
+}
+.budget h1 {
+  width: 457px;
+  font-size: 56px;
+  font-weight: 800px;
+  color: #13183f;
+}
+.budget p {
+  width: 445px;
+  color: #83869a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 28px;
+}
+.budget button {
+  width: 167px;
+  height: 63px;
+  border-radius: 31.5px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  border: 0;
+  margin-top: 39px;
+}
+.member img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box {
+  display: flex;
+  gap: 30px;
+  margin-left: 165px;
+  margin-top: 110px;
+}
+.popular {
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  margin-top: 110px;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.popular h3 {
+  width: 286px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  padding-top: 64px;
+  padding-left: 32px;
+}
+.animation {
+  position: relative;
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  margin-top: 110px;
+  padding-left: 32px;
+}
+.animation img {
+  position: absolute;
+  top: -24px;
+}
+.animation h4 {
+  padding-top: 64px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #13183f;
+}
+.animation p {
+  width: 286px;
+  color: #83869a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 23px;
+}
+.animation h5 {
+  color: #f74780;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  padding-top: 24px;
+}
+.design {
+  position: relative;
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  margin-top: 110px;
+  padding-left: 32px;
+}
+.design img {
+  position: absolute;
+  top: -24px;
+}
+.design h4 {
+  padding-top: 64px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #13183f;
+}
+.design p {
+  width: 286px;
+  color: #83869a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 23px;
+}
+.design h5 {
+  color: #f74780;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  padding-top: 52px;
+}
+.box2 {
+  display: flex;
+  gap: 30px;
+  margin-left: 165px;
+  margin-top: 80px;
+}
+.photography {
+  position: relative;
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  padding-left: 32px;
+}
+.photography img {
+  position: absolute;
+  top: -24px;
+}
+.photography h4 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #13183f;
+  padding-top: 64px;
+}
+.photography p {
+  width: 286px;
+  color: #83869a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 24px;
+}
+.photography h5 {
+  color: #f74780;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  padding-top: 52px;
+}
+.crypto {
+  position: relative;
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  padding-left: 32px;
+}
+.crypto img {
+  position: absolute;
+  top: -24px;
+}
+.crypto h4 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #13183f;
+  padding-top: 64px;
+}
+.crypto p {
+  width: 286px;
+  color: #83869a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 24px;
+}
+.crypto h5 {
+  color: #f74780;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  padding-top: 24px;
+}
+.business {
+  position: relative;
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  padding-left: 32px;
+}
+.business img {
+  position: absolute;
+  top: -24px;
+}
+.business h4 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #13183f;
+  padding-top: 64px;
+}
+.business p {
+  width: 286px;
+  color: #83869a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 24px;
+}
+.business h5 {
+  color: #f74780;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  padding-top: 24px;
+}
+.skill2 {
+  display: flex;
+  gap: 831px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+  background: #13183f;
+}
+.skill2 img {
+  width: 111px;
+  height: 28px;
+  margin-top: 47px;
+  margin-bottom: 47px;
+}
+.skill2 button {
+  width: 167px;
+  height: 56px;
+  border-radius: 28px;
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  margin-top: 32px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
